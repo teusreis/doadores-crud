@@ -1,0 +1,28 @@
+{
+    "name": "teusreis/doadores-crud",
+    "description": "Um crud simples para cadastrar doadores!",
+    "authors": [
+        {
+            "name": "Mateus Reis",
+            "email": "mateus.aguia123@gmail.com"
+        }
+    ],
+    "require": {
+        "coffeecode/router": "^1.0",
+        "league/plates": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers/helper.php",
+            "app/helpers/config.php"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}

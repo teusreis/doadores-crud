@@ -1,0 +1,15 @@
+.invalid {
+    color: rgb(255, 37, 37);
+}
+
+.invalid input{
+    border: 1px solid red;
+}
+  
+.valid {
+    color: green;
+}
+
+.valid input {
+    border: 1px solid green;
+}
